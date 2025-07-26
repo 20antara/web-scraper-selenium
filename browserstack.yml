@@ -1,0 +1,25 @@
+userName: antararoy_aEsTKH
+accessKey: rD45DFr84cZKEWKyAET6
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+    deviceOrientation: portrait
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+buildName: browserstack-build-1
+projectName: BrowserStack Sample

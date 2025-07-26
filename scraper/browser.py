@@ -31,6 +31,7 @@ def get_webdriver(
             options.add_argument('--headless=new')
             options.add_argument('--disable-gpu')
             options.add_argument('--no-sandbox')
+            options.add_argument('--enable-unsafe-swiftshader')
         options.add_argument(f'--window-size={window_size}')
         return webdriver.Chrome(options=options)
 
