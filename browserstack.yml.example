@@ -1,0 +1,25 @@
+userName: your_browserstack_username
+accessKey: your_browserstack_accesskey
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+    deviceOrientation: portrait
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+buildName: ElPais-Scraper-CrossBrowser-v1.0
+projectName: ElPais Selenium Cross-Browser Suite
