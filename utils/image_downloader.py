@@ -4,7 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def download_image(image_url: str, save_path: str) -> bool:
+def download_image(image_url: str, save_path: str, logger) -> bool:
     """
     Downloads image from img tag and saves locally
     """

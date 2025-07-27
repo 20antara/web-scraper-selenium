@@ -1,0 +1,43 @@
+2025-07-27 05:09:49,825 [INFO]: Detected page language: es-ES
+2025-07-27 05:09:49,826 [INFO]: Verified: El PaÃ­s is displayed in Spanish.
+2025-07-27 05:09:59,852 [WARNING]: Could not find clickable Opinión link, navigating directly to section.
+2025-07-27 05:10:03,575 [INFO]: Navigated to the Opinion section
+2025-07-27 05:10:05,433 [INFO]: Collected 5 article URLs from Opinión section.
+2025-07-27 05:10:10,308 [INFO]: 
+Article 1 -
+Title: Fracaso moral internacional
+Content: Mientras muchos gobiernos se limitan a condenar la masacre en Gaza, Netanyahu sigue usando el hambre como arma de guerra
+2025-07-27 05:10:10,422 [INFO]: Image downloaded: output/article_1_cover.jpg
+2025-07-27 05:10:13,029 [INFO]: 
+Article 2 -
+Title: La ciencia se rebela contra Trump
+Content: Los devastadores recortes contra la NASA y otras instituciones suponen un grave daño para la investigación mundial
+2025-07-27 05:10:13,098 [INFO]: Image downloaded: output/article_2_cover.jpg
+2025-07-27 05:10:15,613 [INFO]: 
+Article 3 -
+Title: Más temprano que tarde caerán las dictaduras
+Content: La ventaja de los totalitarismos socialistas del siglo XXI es que la lucha armada no es una opción para las fuerzas democráticas que se les oponen
+2025-07-27 05:10:15,689 [INFO]: Image downloaded: output/article_3_cover.jpg
+2025-07-27 05:10:17,719 [INFO]: 
+Article 4 -
+Title: Puro, blanco y letal
+Content: El azúcar, impulsor de la civilización capitalista, pasó de ser un producto de lujo a incorporarse al consumo de masas
+2025-07-27 05:10:17,804 [INFO]: Image downloaded: output/article_4_cover.jpg
+2025-07-27 05:10:20,403 [INFO]: 
+Article 5 -
+Title: 
+Content: 
+2025-07-27 05:10:20,480 [INFO]: Image downloaded: output/article_5_cover.jpg
+2025-07-27 05:10:20,482 [INFO]: Successfully scraped articles from the Opinion section.
+2025-07-27 05:10:20,482 [INFO]: Translation from spanish to english using Rapid Translate Multi Traduction API:
+2025-07-27 05:10:20,708 [INFO]: Article 1 - Spanish: Fracaso moral internacional | English: International moral failure
+2025-07-27 05:10:20,709 [INFO]: Article 2 - Spanish: La ciencia se rebela contra Trump | English: Science rebels against Trump
+2025-07-27 05:10:20,710 [INFO]: Article 3 - Spanish: Más temprano que tarde caerán las dictaduras | English: Sooner rather than later the dictatorships will fall
+2025-07-27 05:10:20,710 [INFO]: Article 4 - Spanish: Puro, blanco y letal | English: Pure, white and lethal
+2025-07-27 05:10:20,710 [INFO]: Article 5 - Spanish:  | English: 
+2025-07-27 05:10:20,711 [INFO]: Successfully translated Spanish titles to English.
+2025-07-27 05:10:20,712 [INFO]: Analysis if there are words repeating.
+2025-07-27 05:10:20,713 [INFO]: No words repeated more than twice.
+2025-07-27 05:10:20,713 [INFO]: Successfully analysed words.
+2025-07-27 05:10:20,713 [INFO]: Successfully tested on chrome in platform Android !
+2025-07-27 05:10:22,548 [INFO]: Browser closed.

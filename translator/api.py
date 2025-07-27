@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def translate_text(texts: list, source: str = "es", target: str = "en") -> list:
+def translate_text(texts: list, logger, source: str = "es", target: str = "en") -> list:
     """
     Translate text using the Rapid Translate Multi Traduction API.
     """

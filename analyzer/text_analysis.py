@@ -1,14 +1,15 @@
 import string
 
-def print_repeated_words(headers, min_repeats=2):
+
+def print_repeated_words(headers, logger, min_repeats=2 ):
     """
     Prints words that occur more than 'min_repeats' times across the list of headers.
     """
-     # We'll convert to lowercase and remove punctuation manually, then count words
-
+    # We'll convert to lowercase and remove punctuation manually, then count words
+    
     all_words = []
 
-    #   Prepare a translation table for stripping punctuation
+    # Prepare a translation table for stripping punctuation
     table = str.maketrans('', '', string.punctuation)
 
     for header in headers:
@@ -23,12 +24,12 @@ def print_repeated_words(headers, min_repeats=2):
             word_counts[word] += 1
         else:
             word_counts[word] = 1
-        
-    # Print wors that appear more than 'min_repeats' times
+
+    # Print words that appear more than 'min_repeats' times
     found = False
     for word, count in word_counts.items():
         if count > min_repeats:
-            print(f"'{word}' occurs {count} times.")
+            logger.info(f"'{word}' occurs {count} times.")
             found = True
     if not found:
-        print("No words repeated more than twice.")
+        logger.info("No words repeated more than twice.")

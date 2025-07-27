@@ -5,10 +5,10 @@ platforms:
     osVersion: 10
     browserName: Chrome
     browserVersion: 120.0
-  - os: OS X
-    osVersion: Monterey
-    browserName: Safari
-    browserVersion: 15.6
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
   - deviceName: iPhone 13
     osVersion: 15
     browserName: Chromium
@@ -21,5 +21,5 @@ platforms:
     osVersion: 11
     browserName: Firefox
     browserVersion: latest
-buildName: browserstack-build-1
-projectName: BrowserStack Sample
+buildName: ElPais-Scraper-CrossBrowser-v1.0
+projectName: ElPais Selenium Cross-Browser Suite
