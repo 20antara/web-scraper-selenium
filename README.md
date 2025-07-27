@@ -16,8 +16,6 @@ This project automates the extraction, translation, and analysis of opinion arti
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
-- BrowserStack SDK (`pip install browserstack-sdk`)
 - A compatible web browser (e.g., Chrome, Firefox, Edge, or Safari) for local testing
 
 ### 1. Clone the Repository
